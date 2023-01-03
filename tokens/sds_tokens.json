@@ -736,15 +736,57 @@
       },
       "type": "boxShadow"
     },
-    "global": {
+    "primary": {
       "primary-1": {
         "value": "#800080",
         "type": "color"
+      },
+      "primary-2": {
+        "value": "#993399",
+        "type": "color"
+      },
+      "primary-3": {
+        "value": "#ad5cad",
+        "type": "color"
+      },
+      "primary-4": {
+        "value": "#bd7dbd",
+        "type": "color"
+      },
+      "primary-5": {
+        "value": "#ca97ca",
+        "type": "color"
+      },
+      "primary-6": {
+        "value": "#d5acd5",
+        "type": "color"
+      },
+      "primary-7": {
+        "value": "#ddbbdd",
+        "type": "color"
+      },
+      "primary-8": {
+        "value": "#e4cae4",
+        "type": "color"
+      },
+      "primary-9": {
+        "value": "#eddded",
+        "type": "color"
       }
     },
-    "primary-1": {
-      "value": "#800080",
-      "type": "color"
+    "secondary": {
+      "secondary-1": {
+        "value": "#160016",
+        "type": "color"
+      },
+      "secondary-2": {
+        "value": "#1b001b",
+        "type": "color"
+      },
+      "secondary-3": {
+        "value": "#200020",
+        "type": "color"
+      }
     }
   },
   "light": {
@@ -851,7 +893,50 @@
   },
   "WireXpress Theme": {},
   "Components": {},
-  "$themes": [],
+  "$themes": [
+    {
+      "id": "d9f2cce4dc0eb4e39ef88b252536812858475d5c",
+      "name": "EECOL",
+      "selectedTokenSets": {
+        "global": "enabled",
+        "light": "disabled",
+        "dark": "disabled",
+        "EECOL Theme": "enabled",
+        "Wesco Theme": "disabled",
+        "WireXpress Theme": "disabled",
+        "Components": "disabled"
+      },
+      "$figmaStyleReferences": {}
+    },
+    {
+      "id": "01b096b064db197d647817606a167f699670ff31",
+      "name": "Wesco",
+      "selectedTokenSets": {
+        "global": "source",
+        "light": "disabled",
+        "dark": "disabled",
+        "EECOL Theme": "disabled",
+        "Wesco Theme": "enabled",
+        "WireXpress Theme": "disabled",
+        "Components": "disabled"
+      },
+      "$figmaStyleReferences": {}
+    },
+    {
+      "id": "5087ff3b74352a00e2ffc4bd9d2b048fc3877ec3",
+      "name": "WireXpress",
+      "selectedTokenSets": {
+        "global": "source",
+        "light": "disabled",
+        "dark": "disabled",
+        "EECOL Theme": "disabled",
+        "Wesco Theme": "disabled",
+        "WireXpress Theme": "enabled",
+        "Components": "disabled"
+      },
+      "$figmaStyleReferences": {}
+    }
+  ],
   "$metadata": {
     "tokenSetOrder": [
       "global",
