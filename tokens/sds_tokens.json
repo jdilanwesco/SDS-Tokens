@@ -640,10 +640,6 @@
         }
       },
       "gray": {
-        "gray-50": {
-          "value": "#FFFFFF",
-          "type": "color"
-        },
         "gray-100": {
           "value": "#FAFAFA",
           "type": "color"
@@ -892,6 +888,28 @@
         }
       }
     },
+    "global": {
+      "static": {
+        "gray": {
+          "50": {
+            "value": "#FFFFFF",
+            "type": "color"
+          }
+        }
+      },
+      "opcaity": {
+        "0": {
+          "value": "0",
+          "type": "opacity"
+        }
+      },
+      "spacing": {
+        "base": {
+          "value": "8",
+          "type": "spacing"
+        }
+      }
+    },
     "utility": {
       "warning": {
         "value": "#EAAA00",
@@ -998,15 +1016,15 @@
     },
     "breakpoints": {
       "100": {
-        "value": "576px",
+        "value": "576",
         "type": "sizing"
       },
       "200": {
-        "value": "768px",
+        "value": "768",
         "type": "sizing"
       },
       "300": {
-        "value": "992px",
+        "value": "992",
         "type": "sizing"
       },
       "400": {
@@ -1189,10 +1207,6 @@
         "type": "boxShadow"
       }
     },
-    "opacity-0": {
-      "value": "0",
-      "type": "opacity"
-    },
     "opacity-25": {
       "value": ".25",
       "type": "opacity"
@@ -1246,7 +1260,7 @@
       "type": "fontWeights"
     },
     "font-size-base": {
-      "value": "16px",
+      "value": "16",
       "type": "fontSizes"
     },
     "font-size-xs": {
@@ -1314,7 +1328,7 @@
       "type": "fontSizes"
     },
     "line-height-14": {
-      "value": "14px",
+      "value": "14",
       "type": "lineHeights"
     },
     "line-height-16": {
@@ -1369,80 +1383,76 @@
       "value": "64px",
       "type": "lineHeights"
     },
-    "space-base": {
-      "value": "8px",
-      "type": "spacing"
-    },
     "space-25": {
-      "value": "$space-base * .25",
+      "value": "{global.spacing.base} * .25",
       "type": "spacing"
     },
     "space-100": {
-      "value": "$space-base * 1",
+      "value": "{global.spacing.base} * 1",
       "type": "spacing"
     },
     "space-150": {
-      "value": "$space-base * 1.5",
+      "value": "{global.spacing.base} * 1.5",
       "type": "spacing"
     },
     "space-200": {
-      "value": "$space-base * 2",
+      "value": "{global.spacing.base} * 2",
       "type": "spacing"
     },
     "space-250": {
-      "value": "$space-base * 2.50",
+      "value": "{global.spacing.base} * 2.50",
       "type": "spacing"
     },
     "space-300": {
-      "value": "$space-base * 3",
+      "value": "{global.spacing.base} * 3",
       "type": "spacing"
     },
     "space-400": {
-      "value": "$space-base * 4",
+      "value": "{global.spacing.base} * 4",
       "type": "spacing"
     },
     "space-500": {
-      "value": "$space-base * 5",
+      "value": "{global.spacing.base} * 5",
       "type": "spacing"
     },
     "space-600": {
-      "value": "$space-base * 6",
+      "value": "{global.spacing.base} * 6",
       "type": "spacing"
     },
     "space-700": {
-      "value": "$space-base * 7",
+      "value": "{global.spacing.base} * 7",
       "type": "spacing"
     },
     "space-800": {
-      "value": "$space-base * 8",
+      "value": "{global.spacing.base} * 8",
       "type": "spacing"
     },
     "space-900": {
-      "value": "$space-base * 9",
+      "value": "{global.spacing.base} * 9",
       "type": "spacing"
     },
     "space-1000": {
-      "value": "$space-base * 10",
+      "value": "{global.spacing.base} * 10",
       "type": "spacing"
     },
     "space-1200": {
-      "value": "$space-base * 12",
+      "value": "{global.spacing.base} * 12",
       "type": "spacing"
     },
     "space-1600": {
-      "value": "$space-base * 16",
+      "value": "{global.spacing.base} * 16",
       "type": "spacing"
     },
     "space-2000": {
-      "value": "$space-base * 20",
+      "value": "{global.spacing.base} * 20",
       "type": "spacing"
     },
     "space-2200": {
-      "value": "$space-base * 22",
+      "value": "{global.spacing.base} * 22",
       "type": "spacing"
     },
     "space-2600": {
-      "value": "$space-base * 26",
+      "value": "{global.spacing.base} * 26",
       "type": "spacing"
     },
     "letter-spacing-0": {
@@ -1500,7 +1510,7 @@
       "type": "paragraphSpacing"
     },
     "paragraph-spacing-16": {
-      "value": "16px",
+      "value": "16",
       "type": "paragraphSpacing"
     },
     "sm": {
@@ -1601,6 +1611,58 @@
     "text-decoration-line-through": {
       "value": "line-through",
       "type": "textDecoration"
+    },
+    "desktop": {
+      "h1": {
+        "value": {
+          "fontFamily": "$heading",
+          "fontWeight": "$semi-bold",
+          "lineHeight": "$line-height-56",
+          "fontSize": "$font-size-4xl",
+          "letterSpacing": "$letter-spacing-0",
+          "paragraphSpacing": "$paragraph-spacing-0",
+          "textCase": "$text-case-none"
+        },
+        "type": "typography"
+      },
+      "h2": {
+        "value": {
+          "fontFamily": "$heading",
+          "fontWeight": "$semi-bold",
+          "lineHeight": "$line-height-56",
+          "fontSize": "$font-size-3xl",
+          "letterSpacing": "$letter-spacing-0",
+          "paragraphSpacing": "$paragraph-spacing-0",
+          "textCase": "$text-case-none"
+        },
+        "type": "typography"
+      }
+    },
+    "mobile": {
+      "h1": {
+        "value": {
+          "fontFamily": "$heading",
+          "fontWeight": "$semi-bold",
+          "lineHeight": "$line-height-56",
+          "fontSize": "$font-size-3xl",
+          "letterSpacing": "$letter-spacing-0",
+          "paragraphSpacing": "$paragraph-spacing-0",
+          "textCase": "$text-case-none"
+        },
+        "type": "typography"
+      },
+      "h2": {
+        "value": {
+          "fontFamily": "$heading",
+          "fontWeight": "$semi-bold",
+          "lineHeight": "$line-height-56",
+          "fontSize": "$font-size-2xl",
+          "letterSpacing": "$letter-spacing-0",
+          "paragraphSpacing": "$paragraph-spacing-0",
+          "textCase": "$text-case-none"
+        },
+        "type": "typography"
+      }
     }
   },
   "light": {
