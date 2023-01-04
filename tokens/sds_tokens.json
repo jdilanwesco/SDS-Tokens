@@ -500,26 +500,6 @@
       "value": "Arial",
       "type": "fontFamilies"
     },
-    "lineHeights": {
-      "heading": {
-        "value": "110%",
-        "type": "lineHeights"
-      },
-      "body": {
-        "value": "body",
-        "type": "lineHeights"
-      }
-    },
-    "paragraphSpacing": {
-      "h1": {
-        "value": "32",
-        "type": "paragraphSpacing"
-      },
-      "h2": {
-        "value": "26",
-        "type": "paragraphSpacing"
-      }
-    },
     "typography": {
       "H1": {
         "Bold": {
@@ -1405,6 +1385,66 @@
     },
     "font-size-base": {
       "value": "16px",
+      "type": "fontSizes"
+    },
+    "font-size-xs": {
+      "value": "12",
+      "type": "fontSizes"
+    },
+    "font-size-xxs": {
+      "value": "9",
+      "type": "fontSizes"
+    },
+    "font-size-md": {
+      "value": "$font-size-base",
+      "type": "fontSizes"
+    },
+    "font-size-lg": {
+      "value": "$font-size-base * $font-size-scale",
+      "type": "fontSizes"
+    },
+    "font-size-xl": {
+      "value": "$font-size-lg * $font-size-scale",
+      "type": "fontSizes"
+    },
+    "font-size-2xl": {
+      "value": "$font-size-xl * $font-size-scale",
+      "type": "fontSizes"
+    },
+    "font-size-3xl": {
+      "value": "$font-size-2xl * $font-size-scale",
+      "type": "fontSizes"
+    },
+    "font-size-4xl": {
+      "value": "$font-size-3xl * $font-size-scale",
+      "type": "fontSizes"
+    },
+    "font-size-5xl": {
+      "value": "$font-size-4xl * $font-size-scale",
+      "type": "fontSizes"
+    },
+    "font-size-6xl": {
+      "value": "$font-size-5xl * $font-size-scale",
+      "type": "fontSizes"
+    },
+    "font-size-7xl": {
+      "value": "$font-size-6xl * $font-size-scale",
+      "type": "fontSizes"
+    },
+    "font-size-8xl": {
+      "value": "$font-size-7xl * $font-size-scale",
+      "type": "fontSizes"
+    },
+    "font-size-9xl": {
+      "value": "$font-size-8xl * $font-size-scale",
+      "type": "fontSizes"
+    },
+    "font-size-10xl": {
+      "value": "$font-size-9xl * $font-size-scale",
+      "type": "fontSizes"
+    },
+    "font-size-sm": {
+      "value": "14",
       "type": "fontSizes"
     },
     "font-size-scale": {
