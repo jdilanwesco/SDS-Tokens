@@ -1106,6 +1106,30 @@
       "1000": {
         "value": "80",
         "type": "sizing"
+      },
+      "1100": {
+        "value": "88",
+        "type": "sizing"
+      },
+      "1200": {
+        "value": "96",
+        "type": "sizing"
+      },
+      "1300": {
+        "value": "102",
+        "type": "sizing"
+      },
+      "1400": {
+        "value": "110",
+        "type": "sizing"
+      },
+      "1500": {
+        "value": "118",
+        "type": "sizing"
+      },
+      "1600": {
+        "value": "126",
+        "type": "sizing"
       }
     },
     "shadow": {
