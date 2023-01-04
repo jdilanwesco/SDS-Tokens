@@ -1478,6 +1478,41 @@
     "paragraph-spacing-16": {
       "value": "16px",
       "type": "paragraphSpacing"
+    },
+    "sm": {
+      "value": {
+        "width": "$100",
+        "style": "solid"
+      },
+      "type": "border"
+    },
+    "md": {
+      "value": {
+        "width": "$200",
+        "style": "solid"
+      },
+      "type": "border"
+    },
+    "none": {
+      "value": {
+        "width": "$0",
+        "style": "solid"
+      },
+      "type": "border"
+    },
+    "lg": {
+      "value": {
+        "width": "$300",
+        "style": "solid"
+      },
+      "type": "border"
+    },
+    "xl": {
+      "value": {
+        "width": "$400",
+        "style": "solid"
+      },
+      "type": "border"
     }
   },
   "light": {
