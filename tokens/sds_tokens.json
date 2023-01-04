@@ -1537,6 +1537,70 @@
         "style": "solid"
       },
       "type": "border"
+    },
+    "thin": {
+      "value": "$font-weight-100",
+      "type": "fontWeights"
+    },
+    "extra-light": {
+      "value": "$font-weight-200",
+      "type": "fontWeights"
+    },
+    "light": {
+      "value": "$font-weight-300",
+      "type": "fontWeights"
+    },
+    "normal": {
+      "value": "$font-weight-400",
+      "type": "fontWeights"
+    },
+    "medium": {
+      "value": "$font-weight-500",
+      "type": "fontWeights"
+    },
+    "semi-bold": {
+      "value": "$font-weight-600",
+      "type": "fontWeights"
+    },
+    "bold": {
+      "value": "$font-weight-700",
+      "type": "fontWeights"
+    },
+    "extra-bold": {
+      "value": "$font-weight-800",
+      "type": "fontWeights"
+    },
+    "black": {
+      "value": "$font-weight-900",
+      "type": "fontWeights"
+    },
+    "text-case-none": {
+      "value": "none",
+      "type": "textCase"
+    },
+    "text-case-upper": {
+      "value": "uppercase",
+      "type": "textCase"
+    },
+    "text-case-lower": {
+      "value": "lowercase",
+      "type": "textCase"
+    },
+    "text-case-cap": {
+      "value": "capitalize",
+      "type": "textCase"
+    },
+    "text-decoration-none": {
+      "value": "none",
+      "type": "textDecoration"
+    },
+    "text-decoration-underline": {
+      "value": "underline",
+      "type": "textDecoration"
+    },
+    "text-decoration-line-through": {
+      "value": "line-through",
+      "type": "textDecoration"
     }
   },
   "light": {
