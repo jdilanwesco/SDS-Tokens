@@ -46,20 +46,6 @@
         "type": "sizing"
       }
     },
-    "borderRadius": {
-      "sm": {
-        "value": "4",
-        "type": "borderRadius"
-      },
-      "lg": {
-        "value": "8",
-        "type": "borderRadius"
-      },
-      "xl": {
-        "value": "16",
-        "type": "borderRadius"
-      }
-    },
     "colors": {
       "black": {
         "value": "#000000",
@@ -1586,6 +1572,26 @@
         "value": "$breakpoints.600",
         "type": "sizing"
       }
+    },
+    "border-radius-0": {
+      "value": "0",
+      "type": "borderRadius"
+    },
+    "border-radius-100": {
+      "value": "4px",
+      "type": "borderRadius"
+    },
+    "border-radius-200": {
+      "value": "8px",
+      "type": "borderRadius"
+    },
+    "border-radius-300": {
+      "value": "16px",
+      "type": "borderRadius"
+    },
+    "border-radius-round": {
+      "value": "9999",
+      "type": "borderRadius"
     }
   },
   "light": {
