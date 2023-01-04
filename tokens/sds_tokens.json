@@ -1560,6 +1560,32 @@
     "letter-spacing-0": {
       "value": "0",
       "type": "letterSpacing"
+    },
+    "screen": {
+      "screen-sm": {
+        "value": "$breakpoints.100",
+        "type": "sizing"
+      },
+      "screen-md": {
+        "value": "$breakpoints.200",
+        "type": "sizing"
+      },
+      "screen-lg": {
+        "value": "$breakpoints.300",
+        "type": "sizing"
+      },
+      "screen-xl": {
+        "value": "$breakpoints.400",
+        "type": "sizing"
+      },
+      "screen-xxl": {
+        "value": "$breakpoints.500",
+        "type": "sizing"
+      },
+      "screen-xxxl": {
+        "value": "$breakpoints.600",
+        "type": "sizing"
+      }
     }
   },
   "light": {
@@ -1672,12 +1698,7 @@
       "name": "EECOL",
       "selectedTokenSets": {
         "global": "enabled",
-        "light": "disabled",
-        "dark": "disabled",
-        "EECOL Theme": "enabled",
-        "Wesco Theme": "disabled",
-        "WireXpress Theme": "disabled",
-        "Components": "disabled"
+        "EECOL Theme": "enabled"
       },
       "$figmaStyleReferences": {}
     },
@@ -1686,12 +1707,7 @@
       "name": "Wesco",
       "selectedTokenSets": {
         "global": "source",
-        "light": "disabled",
-        "dark": "disabled",
-        "EECOL Theme": "disabled",
-        "Wesco Theme": "enabled",
-        "WireXpress Theme": "disabled",
-        "Components": "disabled"
+        "Wesco Theme": "enabled"
       },
       "$figmaStyleReferences": {}
     },
@@ -1700,12 +1716,7 @@
       "name": "WireXpress",
       "selectedTokenSets": {
         "global": "source",
-        "light": "disabled",
-        "dark": "disabled",
-        "EECOL Theme": "disabled",
-        "Wesco Theme": "disabled",
-        "WireXpress Theme": "enabled",
-        "Components": "disabled"
+        "WireXpress Theme": "enabled"
       },
       "$figmaStyleReferences": {}
     }
