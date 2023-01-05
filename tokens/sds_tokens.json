@@ -5440,7 +5440,6 @@
       }
     }
   },
-  "Brands/Rosalind/dark-theme": {},
   "Brands/EECOL/light-theme": {},
   "Brands/Wesco/light-theme": {},
   "Brands/WireXpress/light-theme": {},
@@ -5492,7 +5491,6 @@
       "Patterns/header",
       "Patterns/footer",
       "Patterns/modal",
-      "Brands/Rosalind/dark-theme",
       "Brands/EECOL/light-theme",
       "Brands/Wesco/light-theme",
       "Brands/WireXpress/light-theme",
