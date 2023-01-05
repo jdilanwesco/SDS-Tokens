@@ -942,6 +942,26 @@
             "type": "color"
           }
         }
+      },
+      "brand": {
+        "wesco": {
+          "primary": {
+            "base": {
+              "value": "#1D252D",
+              "type": "color"
+            },
+            "secondary": {
+              "value": "#00AA13",
+              "type": "color"
+            }
+          },
+          "secondary": {
+            "base": {
+              "value": "#4F758B",
+              "type": "color"
+            }
+          }
+        }
       }
     },
     "breakpoints": {
@@ -963,6 +983,10 @@
       },
       "500": {
         "value": "1440",
+        "type": "sizing"
+      },
+      "600": {
+        "value": "1640",
         "type": "sizing"
       }
     },
