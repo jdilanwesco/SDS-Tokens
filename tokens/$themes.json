@@ -1,0 +1,26 @@
+[
+  {
+    "id": "d9f2cce4dc0eb4e39ef88b252536812858475d5c",
+    "name": "EECOL",
+    "selectedTokenSets": {
+      "global": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "01b096b064db197d647817606a167f699670ff31",
+    "name": "Wesco",
+    "selectedTokenSets": {
+      "global": "source"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "5087ff3b74352a00e2ffc4bd9d2b048fc3877ec3",
+    "name": "WireXpress",
+    "selectedTokenSets": {
+      "global": "source"
+    },
+    "$figmaStyleReferences": {}
+  }
+]

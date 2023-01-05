@@ -1,0 +1,27 @@
+{
+  "tokenSetOrder": [
+    "global",
+    "light",
+    "dark",
+    "semantic",
+    "Components",
+    "Components/buttons",
+    "Components/form/form",
+    "Components/form/text-field",
+    "Components/form/select",
+    "Components/form/switch",
+    "Components/form/checkbox",
+    "Components/form/radio",
+    "Patterns/header",
+    "Patterns/footer",
+    "Patterns/modal",
+    "Brands/EECOL/light-theme",
+    "Brands/Wesco/light-theme",
+    "Brands/WireXpress/light-theme",
+    "Brands/WireXpress/dark-theme",
+    "Brands/WPD/light-theme",
+    "Brands/WPD/dark-theme",
+    "Brands/Wesco/dark-theme",
+    "Brands/EECOL/dark-theme"
+  ]
+}
