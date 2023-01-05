@@ -3888,40 +3888,22 @@
   "Brands/Rosalind/dark-theme": {},
   "Brands/EECOL/light-theme": {},
   "Brands/Wesco/light-theme": {},
+  "Brands/WireXpress/light-theme": {},
+  "Brands/WireXpress/dark-theme": {},
+  "Brands/WPD/light-theme": {},
+  "Brands/WPD/dark-theme": {},
   "Brands/Wesco/dark-theme": {},
   "Brands/EECOL/dark-theme": {},
-  "Wesco Theme": {
-    "fontFamilies": {
-      "heading": {
-        "value": "Titillium Web",
-        "type": "fontFamilies",
-        "description": "https://fonts.google.com/specimen/Titillium+Web?query=Titillium+Web"
-      }
-    }
-  },
-  "WireXpress Theme": {},
   "$themes": [
     {
       "id": "d9f2cce4dc0eb4e39ef88b252536812858475d5c",
       "name": "EECOL",
       "selectedTokenSets": {
         "global": "enabled",
-        "semantic": "disabled",
-        "Components/buttons": "disabled",
-        "Components/form/form": "disabled",
-        "Components/form/text-field": "disabled",
-        "Components/form/select": "disabled",
-        "Components/form/switch": "disabled",
-        "Components/form/checkbox": "disabled",
-        "Components/form/radio": "disabled",
-        "Patterns/header": "disabled",
-        "Patterns/footer": "disabled",
-        "Patterns/modal": "disabled",
-        "Brands/Rosalind/dark-theme": "disabled",
-        "Brands/EECOL/light-theme": "disabled",
-        "Brands/EECOL/dark-theme": "disabled",
-        "Brands/Wesco/light-theme": "disabled",
-        "Brands/Wesco/dark-theme": "disabled"
+        "Brands/WireXpress/light-theme": "disabled",
+        "Brands/WireXpress/dark-theme": "disabled",
+        "Brands/WPD/light-theme": "disabled",
+        "Brands/WPD/dark-theme": "disabled"
       },
       "$figmaStyleReferences": {}
     },
@@ -3930,23 +3912,10 @@
       "name": "Wesco",
       "selectedTokenSets": {
         "global": "source",
-        "Wesco Theme": "enabled",
-        "semantic": "disabled",
-        "Components/buttons": "disabled",
-        "Components/form/form": "disabled",
-        "Components/form/text-field": "disabled",
-        "Components/form/select": "disabled",
-        "Components/form/switch": "disabled",
-        "Components/form/checkbox": "disabled",
-        "Components/form/radio": "disabled",
-        "Patterns/header": "disabled",
-        "Patterns/footer": "disabled",
-        "Patterns/modal": "disabled",
-        "Brands/Rosalind/dark-theme": "disabled",
-        "Brands/EECOL/light-theme": "disabled",
-        "Brands/EECOL/dark-theme": "disabled",
-        "Brands/Wesco/light-theme": "disabled",
-        "Brands/Wesco/dark-theme": "disabled"
+        "Brands/WireXpress/light-theme": "disabled",
+        "Brands/WireXpress/dark-theme": "disabled",
+        "Brands/WPD/light-theme": "disabled",
+        "Brands/WPD/dark-theme": "disabled"
       },
       "$figmaStyleReferences": {}
     },
@@ -3955,23 +3924,10 @@
       "name": "WireXpress",
       "selectedTokenSets": {
         "global": "source",
-        "WireXpress Theme": "enabled",
-        "semantic": "disabled",
-        "Components/buttons": "disabled",
-        "Components/form/form": "disabled",
-        "Components/form/text-field": "disabled",
-        "Components/form/select": "disabled",
-        "Components/form/switch": "disabled",
-        "Components/form/checkbox": "disabled",
-        "Components/form/radio": "disabled",
-        "Patterns/header": "disabled",
-        "Patterns/footer": "disabled",
-        "Patterns/modal": "disabled",
-        "Brands/Rosalind/dark-theme": "disabled",
-        "Brands/EECOL/light-theme": "disabled",
-        "Brands/EECOL/dark-theme": "disabled",
-        "Brands/Wesco/light-theme": "disabled",
-        "Brands/Wesco/dark-theme": "disabled"
+        "Brands/WireXpress/light-theme": "disabled",
+        "Brands/WireXpress/dark-theme": "disabled",
+        "Brands/WPD/light-theme": "disabled",
+        "Brands/WPD/dark-theme": "disabled"
       },
       "$figmaStyleReferences": {}
     }
@@ -3996,10 +3952,12 @@
       "Brands/Rosalind/dark-theme",
       "Brands/EECOL/light-theme",
       "Brands/Wesco/light-theme",
+      "Brands/WireXpress/light-theme",
+      "Brands/WireXpress/dark-theme",
+      "Brands/WPD/light-theme",
+      "Brands/WPD/dark-theme",
       "Brands/Wesco/dark-theme",
-      "Brands/EECOL/dark-theme",
-      "Wesco Theme",
-      "WireXpress Theme"
+      "Brands/EECOL/dark-theme"
     ]
   }
 }
