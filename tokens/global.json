@@ -949,15 +949,31 @@
             "base": {
               "value": "#1D252D",
               "type": "color"
-            },
-            "secondary": {
-              "value": "#00AA13",
-              "type": "color"
             }
           },
           "secondary": {
             "base": {
-              "value": "#4F758B",
+              "value": "#00AA13",
+              "type": "color"
+            }
+          }
+        },
+        "eecol": {
+          "primary": {
+            "base": {
+              "value": "#0099d8",
+              "type": "color"
+            },
+            "dark": {
+              "value": "#0670a0",
+              "type": "color"
+            },
+            "darker": {
+              "value": "#092a42",
+              "type": "color"
+            },
+            "darkest": {
+              "value": "#012139",
               "type": "color"
             }
           }
