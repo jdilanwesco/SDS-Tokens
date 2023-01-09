@@ -919,28 +919,6 @@
         "black": {
           "value": "rgb(0, 0, 0)",
           "type": "color"
-        },
-        "utility": {
-          "warning": {
-            "value": "#EAAA00",
-            "type": "color"
-          },
-          "error": {
-            "value": "#B91817",
-            "type": "color"
-          },
-          "success": {
-            "value": "#2D7966",
-            "type": "color"
-          },
-          "disabled": {
-            "value": "#D1D3D5",
-            "type": "color"
-          },
-          "information": {
-            "value": "#035F98",
-            "type": "color"
-          }
         }
       },
       "brand": {

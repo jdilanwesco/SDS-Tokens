@@ -279,7 +279,7 @@
           "type": "color"
         },
         "disabled": {
-          "value": "{theme.color.gray.300}",
+          "value": "#D1D3D5",
           "type": "color"
         },
         "input": {
@@ -367,75 +367,27 @@
           }
         }
       },
-      "positive": {
+      "sucess": {
         "default": {
-          "value": "{global.color.static.green.600}",
-          "type": "color"
-        },
-        "hover": {
-          "value": "{global.color.static.green.500}",
-          "type": "color"
-        },
-        "down": {
-          "value": "{global.color.static.green.400}",
-          "type": "color"
-        },
-        "key-focus": {
-          "value": "{global.color.static.green.500}",
+          "value": "#2D7966",
           "type": "color"
         }
       },
-      "negative": {
+      "error": {
         "default": {
-          "value": "{global.color.static.red.600}",
-          "type": "color"
-        },
-        "hover": {
-          "value": "{global.color.static.red.500}",
-          "type": "color"
-        },
-        "down": {
-          "value": "{global.color.static.red.400}",
-          "type": "color"
-        },
-        "key-focus": {
-          "value": "{global.color.static.red.500}",
+          "value": "#B91817",
           "type": "color"
         }
       },
-      "notice": {
+      "warning": {
         "default": {
-          "value": "{global.color.static.orange.600}",
-          "type": "color"
-        },
-        "hover": {
-          "value": "{global.color.static.orange.500}",
-          "type": "color"
-        },
-        "down": {
-          "value": "{global.color.static.orange.400}",
-          "type": "color"
-        },
-        "key-focus": {
-          "value": "{global.color.static.orange.500}",
+          "value": "#EAAA00",
           "type": "color"
         }
       },
       "informative": {
         "default": {
-          "value": "{global.color.static.blue.600}",
-          "type": "color"
-        },
-        "hover": {
-          "value": "{global.color.static.blue.500}",
-          "type": "color"
-        },
-        "down": {
-          "value": "{global.color.static.blue.400}",
-          "type": "color"
-        },
-        "key-focus": {
-          "value": "{global.color.static.blue.500}",
+          "value": "#035F98",
           "type": "color"
         }
       },
