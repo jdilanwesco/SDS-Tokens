@@ -743,39 +743,39 @@
             "value": "#E4F1FD",
             "type": "color"
           },
-          "gray-granite-100": {
+          "100": {
             "value": "#C6DCE9",
             "type": "color"
           },
-          "gray-granite-200": {
+          "200": {
             "value": "#AAC3D4",
             "type": "color"
           },
-          "gray-granite-300": {
+          "300": {
             "value": "#8BAABE",
             "type": "color"
           },
-          "gray-granite-400": {
+          "400": {
             "value": "#7497AD",
             "type": "color"
           },
-          "gray-granite-500": {
+          "500": {
             "value": "#5C849D",
             "type": "color"
           },
-          "gray-granite-600": {
+          "600": {
             "value": "#4F758B",
             "type": "color"
           },
-          "gray-granite-700": {
+          "700": {
             "value": "#406174",
             "type": "color"
           },
-          "gray-granite-800": {
+          "800": {
             "value": "#324E5E",
             "type": "color"
           },
-          "gray-granite-900": {
+          "900": {
             "value": "#203846",
             "type": "color"
           }
@@ -805,19 +805,19 @@
             "value": "#6E8FA1",
             "type": "color"
           },
-          "gray-steel-600": {
+          "600": {
             "value": "#61808F",
             "type": "color"
           },
-          "gray-steel-700": {
+          "700": {
             "value": "#516B78",
             "type": "color"
           },
-          "gray-steel-800": {
+          "800": {
             "value": "#435762",
             "type": "color"
           },
-          "gray-steel-900": {
+          "900": {
             "value": "#31414A",
             "type": "color"
           }
