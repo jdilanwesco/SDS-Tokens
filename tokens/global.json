@@ -976,7 +976,7 @@
         "type": "sizing"
       },
       "500": {
-        "value": "1440",
+        "value": "1344",
         "type": "sizing"
       },
       "600": {
@@ -1173,6 +1173,10 @@
       },
       "400": {
         "value": "{global.space.base} * 4",
+        "type": "spacing"
+      },
+      "450": {
+        "value": "{global.space.base} * 4.5",
         "type": "spacing"
       },
       "500": {
