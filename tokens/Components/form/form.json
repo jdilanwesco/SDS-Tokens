@@ -2,140 +2,282 @@
   "component": {
     "form": {
       "font-size": {
-        "label": {
-          "value": "{global.font-size.sm}",
+        "placeholder": {
+          "value": "{semantic.font-size.body.md}",
           "type": "fontSizes"
         },
-        "help": {
-          "value": "{global.font-size.xs}",
+        "icon": {
+          "value": "{semantic.font-size.body.md}",
           "type": "fontSizes"
         }
       },
       "font-family": {
-        "label": {
+        "placeholder": {
           "value": "{semantic.font-family.body}",
           "type": "fontFamilies"
         },
-        "help": {
-          "value": "{semantic.font-family.body}",
+        "icon": {
+          "value": "{semantic.font-family.icon}",
           "type": "fontFamilies"
         }
       },
       "line-height": {
-        "label": {
-          "value": "150%",
+        "placeholder": {
+          "value": "{semantic.line-height.form}",
           "type": "lineHeights"
         },
-        "help": {
-          "value": "150%",
+        "icon": {
+          "value": "{semantic.line-height.form}",
           "type": "lineHeights"
         }
       },
       "font-weight": {
-        "label": {
-          "value": "{semantic.font-weight.medium}",
+        "placeholder": {
+          "value": "{semantic.font-weight.body.regular}",
           "type": "fontWeights"
         },
-        "help": {
-          "value": "{semantic.font-weight.normal}",
+        "icon": {
+          "value": "{semantic.font-weight.body.bold}",
           "type": "fontWeights"
         }
       },
       "text-case": {
-        "label": {
+        "placeholder": {
           "value": "{semantic.text-case.none}",
           "type": "textCase"
         },
-        "help": {
+        "icon": {
           "value": "{semantic.text-case.none}",
           "type": "textCase"
         }
       },
       "letter-spacing": {
-        "label": {
+        "placeholder": {
           "value": "{semantic.letter-spacing.default}",
           "type": "letterSpacing"
         },
-        "help": {
+        "icon": {
           "value": "{semantic.letter-spacing.default}",
           "type": "letterSpacing"
         }
       },
       "typography": {
-        "label": {
+        "placeholder": {
           "value": {
-            "fontFamily": "{component.form.font-family.label}",
-            "fontWeight": "{component.form.font-weight.label}",
-            "lineHeight": "{component.form.line-height.label}",
-            "fontSize": "{component.form.font-size.label}",
-            "letterSpacing": "{component.form.letter-spacing.label}",
-            "textDecoration": "{component.form.text-decoration.label}",
-            "textCase": "{component.form.text-case.label}"
+            "fontFamily": "{component.form.font-family.placeholder}",
+            "fontWeight": "{component.form.font-weight.placeholder}",
+            "lineHeight": "{component.form.line-height.placeholder}",
+            "fontSize": "{component.form.font-size.placeholder}",
+            "letterSpacing": "{component.form.letter-spacing.placeholder}",
+            "textDecoration": "{component.form.text-decoration.placeholder}",
+            "textCase": "{component.form.text-case.placeholder}"
           },
           "type": "typography"
         },
-        "help": {
+        "icon": {
           "value": {
-            "fontFamily": "{component.form.font-family.help}",
-            "fontWeight": "{component.form.font-weight.help}",
-            "lineHeight": "{component.form.line-height.help}",
-            "fontSize": "{component.form.font-size.help}",
-            "letterSpacing": "{component.form.letter-spacing.help}",
-            "textDecoration": "{component.form.text-decoration.help}",
-            "textCase": "{component.form.text-case.help}"
+            "fontFamily": "{component.form.font-family.icon}",
+            "fontWeight": "{component.form.font-weight.icon}",
+            "lineHeight": "{component.form.line-height.icon}",
+            "fontSize": "{component.form.font-size.icon}",
+            "letterSpacing": "{component.form.letter-spacing.icon}",
+            "textDecoration": "{component.form.text-decoration.icon}",
+            "textCase": "{component.form.text-case.icon}"
           },
           "type": "typography"
         }
       },
       "text-decoration": {
-        "label": {
+        "placeholder": {
           "value": "{semantic.text-decoration.none}",
           "type": "textDecoration"
         },
-        "help": {
+        "icon": {
           "value": "{semantic.text-decoration.none}",
           "type": "textDecoration"
         }
       },
       "sizing": {
         "input-min-width": {
-          "value": "{global.size.1200}",
+          "value": "{semantic.size.input.min-width}",
+          "type": "sizing"
+        },
+        "input-min-height": {
+          "value": "{semantic.size.input.min-height}",
           "type": "sizing"
         }
       },
       "spacing": {
-        "label": {
+        "input": {
           "padding-bottom": {
-            "value": "{global.space.50}",
+            "value": "{semantic.spacing.around.component.md}",
+            "type": "spacing"
+          },
+          "padding-left": {
+            "value": "{semantic.spacing.around.component.md}",
             "type": "spacing"
           },
           "padding-right": {
-            "value": "{semantic.spacing.around.component.xl}",
+            "value": "{semantic.spacing.around.component.md}",
+            "type": "spacing"
+          },
+          "padding-top": {
+            "value": "{semantic.spacing.around.component.md}",
             "type": "spacing",
             "description": "Padding of component label, like the label on a checkbox"
-          }
-        },
-        "help": {
-          "padding-top": {
-            "value": "{global.space.100}",
-            "type": "spacing"
-          }
-        },
-        "group": {
-          "margin-bottom": {
-            "value": "{global.space.200}",
-            "type": "spacing"
           }
         }
       },
       "color": {
-        "label": {
-          "value": "{theme.color.gray.800}",
-          "type": "color"
+        "foreground-color": {
+          "label": {
+            "default": {
+              "value": "{semantic.color.foreground.on-base.default}",
+              "type": "color"
+            }
+          },
+          "help": {
+            "default": {
+              "value": "{semantic.color.foreground.on-base.default}",
+              "type": "color"
+            }
+          },
+          "error": {
+            "default": {
+              "value": "{semantic.color.error.default}",
+              "type": "color"
+            }
+          },
+          "placeholder": {
+            "default": {
+              "value": "{semantic.color.foreground.on-base.default}",
+              "type": "color"
+            },
+            "disable": {
+              "value": "{semantic.color.foreground.on-base.default}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{semantic.color.primary.darker}",
+              "type": "color"
+            }
+          },
+          "sucess": {
+            "default": {
+              "value": "{semantic.color.success.default}",
+              "type": "color"
+            }
+          },
+          "info": {
+            "default": {
+              "value": "{semantic.color.informative.default}",
+              "type": "color"
+            }
+          },
+          "warning": {
+            "default": {
+              "value": "{semantic.color.warning.default}",
+              "type": "color"
+            }
+          },
+          "link": {
+            "default": {
+              "value": "{semantic.color.link.base}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{semantic.color.primary.light}",
+              "type": "color"
+            }
+          }
         },
-        "help": {
-          "value": "{theme.color.gray.800}",
-          "type": "color"
+        "border": {
+          "default": {
+            "value": "{semantic.color.border.base}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{semantic.color.foreground.on-base.default}",
+            "type": "color"
+          },
+          "disable": {
+            "value": "{semantic.color.border.disabled}",
+            "type": "color"
+          },
+          "error": {
+            "value": "{semantic.color.error.default}",
+            "type": "color"
+          },
+          "key-focus": {
+            "value": "{semantic.color.primary.light}",
+            "type": "color"
+          },
+          "sucess": {
+            "value": "{semantic.color.success.default}",
+            "type": "color"
+          }
+        },
+        "background-color": {
+          "input": {
+            "default": {
+              "value": "{semantic.color.background.input}",
+              "type": "color"
+            },
+            "dark": {
+              "value": "{semantic.color.background.layer-3}",
+              "type": "color"
+            },
+            "error": {
+              "value": "{semantic.color.error.default}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{semantic.color.background.disabled}",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "border-width": {
+        "default": {
+          "value": "{semantic.border-width.sm}",
+          "type": "borderWidth"
+        },
+        "hover": {
+          "value": "{semantic.border-width.sm}",
+          "type": "borderWidth"
+        },
+        "disabled": {
+          "value": "{semantic.border-width.sm}",
+          "type": "borderWidth"
+        },
+        "key-focus": {
+          "value": "{semantic.border-width.md}",
+          "type": "borderWidth"
+        },
+        "error": {
+          "value": "{semantic.border-width.md}",
+          "type": "borderWidth"
+        }
+      },
+      "border-radius": {
+        "default": {
+          "value": "{semantic.border-radius.xs}",
+          "type": "borderRadius"
+        },
+        "round": {
+          "value": "{semantic.border-radius.round}",
+          "type": "borderRadius"
+        }
+      },
+      "border": {
+        "uploader": {
+          "value": {
+            "color": "{component.form.color.border.default}",
+            "width": "{component.form.border-width.default}",
+            "style": "dashed"
+          },
+          "type": "border"
         }
       }
     }
